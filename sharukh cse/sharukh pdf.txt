@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form id="registrationForm" action="#" class="container">
+    <h1>Create an Account</h1>
+    <label for="fullName">Full Name</label>
+    <input type="text" id="fullName" name="fullName" required>
+    <div class="error-message"></div>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+    <div class="error-message"></div>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required>
+    <div class="error-message"></div>
+
+    <label for="confirmPassword">Confirm Password</label>
+    <input type="password" id="confirmPassword" name="confirmPassword" required>
+    <div class="error-message"></div>
+
+    <label for="phone">Phone (optional)</label>
+    <input type="text" id="phone" name="phone">
+    <div class="error-message"></div>
+
+    <label class="checkbox">
+      <input type="checkbox" id="terms" name="terms" required>
+      I agree to Terms & Privacy
+    </label>
+    <div class="error-message"></div>
+
+    <button type="submit">Register</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
